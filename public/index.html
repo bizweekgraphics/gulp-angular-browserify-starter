@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing</title>
+  <link rel="stylesheet" href="build/styles/main.css">
+  <link href="favicon.jpeg" rel="shortcut icon" type="image/jpeg" />
+
+  <!-- TODO: Change appropriate Iframely metadata -->
+  <link rel="iframely player" type="text/html" href="http://www.businessweek.com/interactive/2014-other-election-map/" media="(min-width:100) and (min-height:100)" title="Best of the Rest">
+  <link rel="iframely thumbnail" size="800x600" type="image/png" href="https://www.google.com/images/srpr/logo11w.png">
+
+  <!-- Bizweekgraphics Google Analytics Tag -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48575462-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body ng-app="landing">
+
+  <div ui-view></div>
+
+  <script src="build/scripts/vendor.js"></script>
+  <script src="build/scripts/app.js"></script>  
+
+</body>
+</html>
